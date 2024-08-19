@@ -1,0 +1,56 @@
+body{
+    background-color: #e0dede;
+}
+.h1{
+    font-size: xx-large;
+    margin-right:600px ;
+}
+.f1 , .f1 input{
+    display: inline;
+    width: 400px;
+    height: 40px;
+    margin-left: 120px;
+}
+.d1{
+    background-color: white;
+    height: 40px;
+
+}
+#t {
+    width: 400px;
+    height: 40px;
+}
+.d2{
+   background-color: white;
+    border: black solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+table{
+    width: 100%;
+}
+.r{
+    font-size:20px ;
+}
+.n{
+    width: 400px;
+}
+.u, .ds , .S  , .C , .H , .M , .L , .a{
+    text-align: center;
+}
+.a , .n , .u{
+    color: #0a53be;
+}
+.s{
+    background-color: yellowgreen;
+}
+.c{background-color: gainsboro}
+.h{background-color: #42f642}
+.m{background-color: #0b5ed7}
+.l{background-color: red}
+table,td,th{
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
