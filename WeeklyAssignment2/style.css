@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Header Styles */
+.head {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.head ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head li {
+    margin: 0 15px;
+}
+
+.head img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Body Styles */
+.body {
+    padding: 20px;
+}
+
+.body ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.body li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 15px;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+}
+
+.body img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.body p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+p.price {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .body li {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .body li {
+        width: calc(100% - 40px);
+    }
+}
+/* Product List Item Hover Effect */
+.body li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 15px;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.body li:hover {
+    background-color: #f9f9f9;
+    border-color: #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: translateY(-5px); /* Slightly lift the item */
+}
+
+.body img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.body p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+p.price {
+    font-weight: bold;
+    color: #333;
+}
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.footer a:hover {
+    color: #ff0; /* Highlight color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+.footer img {
+    max-width: 50px;
+    height: auto;
+    vertical-align: middle;
+    transition: transform 0.3s ease; /* Smooth transition for icon scale */
+}
+
+.footer img:hover {
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
