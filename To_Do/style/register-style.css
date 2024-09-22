@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Light grey background */
+    color: #2f3640; /* Dark text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff; /* Primary color for header */
+    color: #ffffff; /* White text for header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #343a40; /* Dark navigation background */
+    color: #ffffff; /* White text */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #f5f6fa; /* Light link color */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    background-color: #f8f9fa; /* Slightly off-white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 40px auto;
+    width: 400px; /* Fixed width for form */
+}
+
+/* Heading Styles */
+section h2 {
+    font-size: 2rem; /* Font size for the heading */
+    color: #2f3640; /* Dark text color */
+    text-align: center; /* Centered text */
+    margin-bottom: 20px; /* Space below the heading */
+    text-transform: uppercase; /* Uppercase letters for emphasis */
+    letter-spacing: 1px; /* Spacing between letters */
+    border-bottom: 2px solid #007bff; /* Underline effect with primary color */
+    padding-bottom: 10px; /* Padding below the heading */
+}
+
+/* Form Styles */
+form {
+    width: 100%; /* Full width */
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 88%; /* Full width for inputs */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 5px; /* Rounded input corners */
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* White text */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Alert Styles */
+.alert {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+    padding: 10px;
+    border: 1px solid #f5c6cb; /* Light red border */
+    border-radius: 5px; /* Rounded corners for alerts */
+    margin-bottom: 20px; /* Spacing below alerts */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        width: 90%; /* Responsive width for mobile */
+    }
+}

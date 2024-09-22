@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light grey background */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #007bff; /* Primary header color */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #343a40; /* Dark background for nav */
+    color: #ffffff; /* White text */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #f5f6fa; /* Light link color */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    width: 50%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading Styles */
+section h2 {
+    font-size: 2rem; /* Large font size */
+    color: #2f3640; /* Dark text */
+    text-align: center; /* Center text */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff; /* Blue underline */
+    padding-bottom: 10px;
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 1px; /* Letter spacing */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between form elements */
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Alert Styling */
+.alert {
+    background-color: #f8d7da; /* Light red for error */
+    color: #721c24; /* Dark red text */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb; /* Red border */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        width: 90%; /* Full width on mobile devices */
+    }
+}
